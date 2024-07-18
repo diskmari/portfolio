@@ -17,14 +17,14 @@ export const About= () => {
                     <img src={getImageUrl("about/cursorIcon.png")} alt="Icone do cursor" />
                     <div className={styles.aboutItemText}>
                         <h3>Frontend Developer </h3>
-                        <p>Eu sou programadora Front End com experiencia em responsividade e sites otimizados.</p>
+                        <p>Estou aprendendo a criar interfaces web responsivas e otimizadas, proporcionando uma experiência de usuário excepcional. Atualmente, estou aprofundando meus conhecimentos em Next.js e React, visando desenvolver aplicações web modernas e eficientes.</p>
                     </div>
                     </li>
                 <li className={styles.aboutItem}>
                     <img src={getImageUrl("about/serverIcon.png")} alt="icon server" />
                     <div className={styles.aboutItemText}>
                         <h3>Backend Developer </h3>
-                        <p>Eu tenho experiencia em programar back end rapido e otimizado</p>
+                        <p>Dedico-me a construir soluções robustas e escaláveis, garantindo performance e otimização dos sistemas. Meu foco atual está em aprimorar minhas habilidades em lógica de programação utilizando JavaScript e C++.</p>
                     </div>
                     </li>
                 </ul>

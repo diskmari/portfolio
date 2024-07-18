@@ -1,10 +1,14 @@
 * {
-  box-sizing: border-box;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth; /* Para o site scrollar lentamente */
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* Impede que qualquer conteúdo cause rolagem horizontal */
+  scroll-behavior: smooth;    /* Para o site scrollar lentamente */
 }
+
+

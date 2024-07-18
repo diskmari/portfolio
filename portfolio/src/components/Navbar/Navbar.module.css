@@ -1,14 +1,19 @@
+/* NavBar.module.css */
+
 @import "../../vars.css";
 
 .navbar {
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--color-background);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 61px;
-    z-index: 2;
-    margin: 0 10%;
-
+    padding: 20px 10%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 
 .title {
@@ -20,58 +25,59 @@
 
 .menu {
     display: flex;
+    align-items: center;
 }
 
-.menuItens{
+.menuItens {
     display: flex;
-    gap: 47px;
+    gap: 30px;
     list-style: none;
 }
 
-.menuItens a{
-    font-size: 25px;
+.menuItens a {
+    font-size: 20px;
     color: var(--color-text);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
 
+.menuItens a:hover {
+    color: var(--color-primary);
+}
+
+.menuBtn {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--color-text);
 }
 
 @media screen and (max-width: 830px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .menu {
-        position: absolute;
-        right: 0;
-        margin-right: 10%;
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 11px;
-        z-index: 3;
-
-    }
-
     .menuBtn {
         display: block;
-        cursor: pointer;
     }
 
     .menuItens {
-        display: none;
-        display: none;
+        position: absolute;
+        top: 60px;
+        right: 10%;
         flex-direction: column;
-        align-items: center;
-        gap: 13px;
-        border-radius: 10px;
-        background: rgb(25, 55, 109);
-        background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
-        padding: 24px 33px;
-        box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+        align-items: flex-end;
+        gap: 15px;
+        background: rgba(48, 3, 90, 0.568);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: none;
+    }
+
+
+    
+    .menuItens a {
+        font-size: 18px;
     }
 
     .menuOpen {
         display: flex;
-        z-index: 1;
     }
-
 }

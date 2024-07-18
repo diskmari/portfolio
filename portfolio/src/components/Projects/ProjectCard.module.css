@@ -4,11 +4,20 @@
     display: flexbox;
     flex-direction: column;
     border-radius: 10px;
-    background: linear-gradient(180deg, #576cbc 0%, #132a53);
-    box-shadow: 0 16px 14px 0 #04152d;
+    background: linear-gradient(180deg, #360258 0%, #190031);
+    box-shadow: 0 16px 14px 0 #170224;
     padding: 18px 24px;
     max-width: 345px;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
+
+.container:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+    /* Ou use uma sombra */
+    box-shadow: 0 16px 14px 0 rgba(0, 0, 0, 0.5);
+}
+
 
 .image {
     margin-bottom: 26px;
