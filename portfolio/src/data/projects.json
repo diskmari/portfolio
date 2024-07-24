@@ -1,46 +1,21 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Previsão do tempo",
+      "imageSrc": "projects/projeto1.png",
+      "description": "Um site de previsão do tempo que permite aos usuários consultar as condições meteorológicas de uma cidade utilizando a API OpenWeather.",
+      "skills": ["React", "Tailwind", "API"],
+      "demo": "https://previsao-do-tempoo.vercel.app/",
+      "source": "https://github.com/diskmari/previsao-do-tempo"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project D",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project D",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "To Do List",
+      "imageSrc": "projects/project2.png",
+      "description": "Este projeto é uma lista de tarefas interativa para organizar atividades diárias e aumentar a produtividade. Permite várias funcionalidades.",
+      "skills": ["JavaScript", "HTML", "CSS"],
+      "demo": "https://to-do-list-mari.vercel.app/",
+      "source": "https://github.com/diskmari/ToDoList"
     }
-
-    
+   
   ]
 
   

@@ -1,26 +1,32 @@
 @import "../../vars.css";
 
 .container {
-    display: flexbox;
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
     border-radius: 10px;
     background: linear-gradient(180deg, #360258 0%, #190031);
     box-shadow: 0 16px 14px 0 #170224;
     padding: 18px 24px;
     max-width: 345px;
+    height: 100%; /* Garantir que o cartão preencha toda a altura disponível */
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .container:hover {
     transform: scale(1.05);
     filter: brightness(1.1);
-    /* Ou use uma sombra */
     box-shadow: 0 16px 14px 0 rgba(0, 0, 0, 0.5);
 }
 
-
 .image {
     margin-bottom: 26px;
+}
+
+.content {
+    flex-grow: 1; /* Permite que o conteúdo cresça para preencher o espaço */
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
@@ -32,6 +38,7 @@
     margin-top: 6px;
     font-size: 25px;
     font-weight: 400;
+    flex-grow: 1; /* Faz com que a descrição cresça para ocupar o espaço disponível */
 }
 
 .skills {
