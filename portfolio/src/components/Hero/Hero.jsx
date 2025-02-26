@@ -29,8 +29,8 @@ export const Hero = () => {
           <span id="typing-text" className={`${styles.typingText} ${styles.hideCursor}`}>{displayText}</span>
         </h1>
         <p className={styles.description}>
-        Sou programadora Front-End com um ano de experiência e estou cursando o quarto semestre de Análise e Desenvolvimento de Sistemas.</p>
-        <p className={styles.description}>Estou buscando uma oportunidade de estágio para expandir meu conhecimento e ganhar experiência prática.</p>
+        Sou programadora Front-End com dois anos de experiência, estou cursando o primeiro semestre de Sistemas de Infromação na UFU e me formando em Análise de Sistemas.</p>
+        <p className={styles.description}>Estou buscando uma oportunidade de trabalho para expandir meu conhecimento e ganhar experiência prática.</p>
         
         <a href="mailto:eumarimonteiro45140@gmail.com" className={styles.contactBtn}>Contato</a>
       </div>

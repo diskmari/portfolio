@@ -24,7 +24,7 @@ export const About= () => {
                     <img src={getImageUrl("about/serverIcon.png")} alt="icon server" />
                     <div className={styles.aboutItemText}>
                         <h3>Backend Developer </h3>
-                        <p>Dedico-me a construir soluções robustas e escaláveis, garantindo performance e otimização dos sistemas. Meu foco atual está em aprimorar minhas habilidades em lógica de programação utilizando JavaScript e C++.</p>
+                        <p>Dedico-me a construir soluções robustas e escaláveis, garantindo performance e otimização dos sistemas. Meu foco atual está em aprimorar minhas habilidades em lógica de programação utilizando JavaScript, Node e C.</p>
                     </div>
                     </li>
                 </ul>
